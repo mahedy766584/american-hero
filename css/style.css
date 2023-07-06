@@ -78,7 +78,7 @@
     padding: 10px 50px;
     margin-top: 20px;
     font-size: 30px;
-    background-color: #570c0c;
+    background-color: rgba(147, 0, 0, 0.642);
     outline: none;
     border: 1px solid rgb(255, 255, 255, 0.3);
     border-radius: 30px;
@@ -174,11 +174,14 @@
 
 
 
-/* @media (max-width: 375px){
+@media (max-width: 375px){
     .container{
-        width: 100%;
+        width: 5%;
         margin: 0;
         padding: 0;
+        background-position: center;
+        background-size: cover;
+        width: ;
     }
     .container header{
         width: 80%;
@@ -189,4 +192,4 @@
         width: 80px;
         
     }
-} */
+}
