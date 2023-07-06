@@ -51,8 +51,8 @@
     border-radius: 30px;
     outline: none;
     background-color: #e0e0e0;
-    border: 2px solid #570c0c;
-    box-shadow: 2px 2px 10px rgb(255, 255, 255, .3);
+    border: 2px solid  rgba(51, 0, 0, 0.461);
+    box-shadow: 2px 2px 10px rgb(255, 255, 255, 0.3);
 }
 .container header .btn[placeholder]{
     font-size: 16px;
@@ -91,11 +91,85 @@
     transition: all ease-in 0.8s;
 }
 
-
-
-
-
-
+.our-items{
+    margin: 0;
+}
+.our-items .right-5{
+    text-align: center;
+    padding: 50px;
+}
+.our-items .right-5 p{
+    width: 950px;
+    margin-top: 25px;
+}
+.our-items .right-5 h1{
+    font-size: 3rem;
+}
+.our-items .right-5 hr{
+    width: 130px;
+    margin-left: 43.09%;
+}
+.our-items .items{
+    width: 95%;
+    height: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 90px auto;
+    padding-bottom: 80px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, .1);
+}
+.our-items .items .item{
+    width: 400px;
+    height: 490px;
+    margin: 30px;
+    justify-content: center;
+    border-radius: 6px;
+}
+.our-items .items .item:hover{
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, .2);
+    transition: all ease-in .5s;
+}
+.our-items .items .item h2{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.our-items .items .item p{
+    margin-top: 20px;
+    width: 380px;
+    margin-left: 10px;
+    text-align: justify;
+}
+.our-items .items .item img{
+    width: 400px;
+    height: 250px;
+}
+.our-items .items .item .btn-2{
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    margin-left: 35%;
+    margin-top: 23px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #fff;
+    background-color: rgba(83, 0, 0, .85);
+    display: none;
+    cursor: pointer;
+}
+.our-items .items .item .btn-2 a{
+    text-decoration: none;
+    color: #fff;
+}
+.our-items .items .item:hover .btn-2{
+    display: block;
+    transition: all ease-in .5s;
+    display: flex;
+}
 
 
 
